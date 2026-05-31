@@ -60,6 +60,15 @@ const Footer = () => {
                   Contact Us
                 </a>
               </li>
+
+                   <li>
+                <a
+                  href={'/t&c'}
+                  className="cursor-pointer hover:border-b-2 hover:border-[#1A73E8] transition duration-500"
+                >
+                  Terms & Conditions
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
