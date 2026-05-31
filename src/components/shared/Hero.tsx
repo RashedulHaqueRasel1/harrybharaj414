@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { Instagram, Plus, Youtube } from "lucide-react";
+import { Facebook, Instagram, Plus, Youtube } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -78,7 +78,7 @@ const Hero = () => {
                   </Button>
                 </Link>
 
-                    <Link href={"https://buy.stripe.com/eVq28sb0fbv297dgs26Na05"} target="_blank">
+                    <Link href={"https://topmate.io/harry_singh12/1974489"} target="_blank">
                   <Button
                     size="lg"
                   className="border-2 border-blue-500 text-blue-600 hover:bg-white cursor-pointer bg-transparent hover:scale-105 transition-all duration-300 "
@@ -96,16 +96,18 @@ const Hero = () => {
               </h4>
               <div>
                 <ul className="flex gap-4">
-                  <li>
-                    <Link
-                      href="https://www.instagram.com/destiny_abroad_fzllc"
-                      target="_blank"
-                      className="flex items-center justify-center w-10 h-10  bg-pink-600 hover:bg-pink-700 rounded-full transition-colors group"
-                      title="Instagram"
-                    >
-                      <Instagram className="w-6 h-6 text-white" />
-                    </Link>
-                  </li>
+            
+
+<li>
+  <Link
+    href="https://www.facebook.com/share/1DyFWyQXxP/?mibextid=wwXlfr"
+    target="_blank"
+    className="flex items-center justify-center w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors group"
+    title="Facebook"
+  >
+    <Facebook className="w-6 h-6 text-white" />
+  </Link>
+</li>
                   <li>
                     <Link
                       href="https://www.youtube.com/@HARRYSINGHEUROPA"
