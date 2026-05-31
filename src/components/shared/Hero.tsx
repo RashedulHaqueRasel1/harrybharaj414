@@ -77,6 +77,15 @@ const Hero = () => {
                     Book a Consultation
                   </Button>
                 </Link>
+
+                    <Link href={"https://buy.stripe.com/eVq28sb0fbv297dgs26Na05"} target="_blank">
+                  <Button
+                    size="lg"
+                  className="border-2 border-blue-500 text-blue-600 hover:bg-white cursor-pointer bg-transparent hover:scale-105 transition-all duration-300 "
+                  >
+                    Register for Services
+                  </Button>
+                </Link>
               </div>
             </div>
 
